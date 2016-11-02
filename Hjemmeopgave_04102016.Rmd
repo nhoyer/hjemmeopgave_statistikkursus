@@ -37,7 +37,7 @@ dataset$bambuterol <- as.factor(dataset$bambuterol)
 ```
 
 
-Jeg fjerner observation 1 og 51.
+Jeg fjerner observationerne 1 og 51.
 ```{r}
 dataset <- filter(dataset, idnr!= 1)
 dataset <- filter(dataset, idnr!= 51)
